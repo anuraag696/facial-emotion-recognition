@@ -1,0 +1,21 @@
+
+services:
+  - type: web
+    name: fer-proj-api
+    runtime: python
+    plan: free
+    region: oregon
+
+    buildCommand: pip install --upgrade pip && pip install -r requirements-render.txt
+
+    startCommand: uvicorn api.app:app --host 0.0.0.0 --port $PORT
+
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.11
+
+      - key: PYTHONUNBUFFERED
+        value: "1"
+
+      - key: GROQ_API_KEY
+        sync: false

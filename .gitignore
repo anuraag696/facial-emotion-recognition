@@ -1,0 +1,32 @@
+venv/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+.env
+.venv314/
+venv/
+__pycache__/
+*.pyc
+
+# Training datasets - not needed for deployment
+data/raw/
+
+# Local environment and secrets
+.env
+.venv314/
+venv/
+
+# Dataset files - keep locally, don't upload
+data/
+
+# Unused model checkpoint
+models_artifacts/best_emotion_model.keras

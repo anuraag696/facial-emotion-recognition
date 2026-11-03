@@ -1,0 +1,9 @@
+
+tensorflow==2.21.0
+numpy
+opencv-python-headless
+fastapi
+uvicorn
+python-multipart
+groq
+python-dotenv

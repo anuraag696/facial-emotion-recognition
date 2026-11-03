@@ -1,0 +1,12 @@
+tensorflow==2.21.0
+pandas
+opencv-python
+numpy
+fastapi
+uvicorn
+scikit-learn
+tqdm
+python-multipart
+mlflow
+groq
+python-dotenv
